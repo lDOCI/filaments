@@ -1,0 +1,468 @@
+{
+  "_meta": {
+    "comment": "Уточнённые / новые записи русских производителей. Веса подтверждены либо официальным сайтом, либо реальным взвешиванием в обзорах.",
+    "sources": {
+      "bestfilament_bf1": "https://bestfilament.ru/katushka-bf-1/ — официальные характеристики катушки BF-1: 177±5 г, Ø200×64 мм, сердечник 70.5 мм",
+      "fdplast_official": "https://www.fdplast.ru/assets/files/katushka_bf.pdf + 3dtoday FDplast posts — 0.75кг → 175 г, 1кг → 200 г, 2.5кг → 550 г",
+      "filamentarno_packaging": "https://www.mir3d.by/obzory/materialy-dlya-3d-pechati/filamentarno/ — Filamentarno, упаковочные веса",
+      "printproduct_3dtoday": "https://3dtoday.ru/blogs/mamuka/the-actual-amount-of-plastic-in-the-coil — взвешены 3 катушки PLA 0.75 кг, все по 208 г",
+      "printproduct_arch": "https://printproduct3d.ru/products/pla-arch-1-kg-1 — катушка 200×55 мм",
+      "mako_review": "https://softed.su/obzor-plastika-dlya-3d-printera-mako-petg-black/ — взвешено: общий 1186 г → катушка ~185 г",
+      "nekrasovskiy_review": "https://mysku.club/blog/russia-stores/95814.html — взвешено: 176 г пустая, ~900-1000 г пластика, общий 1168-1181 г",
+      "syntech_eco": "https://syntechlab.ru/store/pet-g/pet-g-belyy-1-kg/ — эко-катушка 40 г (картон, против 150-210 г пластика)",
+      "htp_review": "https://www.ixbt.com/live/3d-modelling/obzor-filamenta-ot-hi-tech-plast-samyy-deshevyy-pla-plastik-chto-ya-videl.html — PETG 1 кг ±50 г",
+      "rec_wiki": "https://rec3d.ru/rec-wiki/rukovodstvo-po-filamentam-rec-tipy-materialov-i-oblasti-primeneniya/ — список линеек REC",
+      "softed_table": "https://softed.su/ves-pusth-katushek-ot-filamenta/ — таблица измеренных весов: ABS Maker 175 г, Bestfilament 181 г, DEXP 200/232 г, eSUN 257 г, Filamentarno 205 г, Geek Filament 259 г, INFILL 188 г, НИТ 182 г, ATECO CARBEX CF 277 г",
+      "dexp_3dtoday": "https://3dtoday.ru/blogs/devpilgrim/plastic-for-3d-printing-or-pla-filament — DEXP PLA 1 кг, продаётся в DNS",
+      "tiger3d_official": "https://tiger3d.com/production/plastik_dlya_3d-pechati/ — Tiger3D PLA+ 1 кг",
+      "plexiwire_official": "https://shop.plexiwire.com.ua/ru/ — Plexiwire: 0.3 кг (100 м), 0.9 кг (300 м), 1.2 кг (400 м)",
+      "sem3d_official": "https://sem3d.ru/ + https://sem3d.ru/catalog/pla_plastiki/9122/ — SEM3D: Ø 200 мм, сердечник 52 мм; 800-900 г нетто, 1070 г брутто → катушка ~170 г",
+      "element3d_official": "https://www.element3d.ru/shop/pla-plastik/ — Element3D: PLA, ABS X, PETG MAX, SBS VITRUM, PC MAX, PVA, NYLON 12, NYLON CARBON, HIPS, FLEX/TPU, PLA LUMI; нетто 500/750/1000/2500/5000 г",
+      "kremen_official": "https://kremen.ru/ — Kremen Premium Quality + Start: PLA, PETG, ABS; катушка-картридж с патентованной 'Ribbed surface'; упаковка 7×24×21 см, нетто 1 кг",
+      "starplast_ozon": "https://www.ozon.ru/brand/starplast-145075407/ + https://star-plast.com/ — StarPlast: PLA, PETG, Silk, нетто 1 кг, диаметр 1.75 мм",
+      "lider3d_review": "https://3dtoday.ru/blogs/insominium/obzor-na-filament-pla-ot-lider-3d — Lider-3D: 1226 г общий вес → катушка ~226 г, точность ±0.03 мм",
+      "greg_review": "https://3dtoday.ru/blogs/karpov465/fdplast-vs-greg + https://greg-3d.ru/ — Greg: PLA 1223 г общий, ABS 1071 г общий; разборная катушка, поставляется бухтами 1.2/5 кг",
+      "russian_brands_3dtoday": "https://3dtoday.ru/blogs/hexagonsector3d/proizvoditeli-filamenta-i-ix-materialy-dlya-3d-pecati-iz-rf-ekstruziya-materiala-fdm — полный список 31 российского производителя"
+    }
+  },
+
+  "filaments": [
+    {
+      "manufacturer": "Bestfilament",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 177, "confidence": "official", "src": "bestfilament_bf1", "note": "Катушка BF-1: 177±5 г, Ø200×64 мм"},
+        {"material": "PLA",  "netWeight": 500,  "spoolWeight": 145, "confidence": "estimated", "src": "bestfilament_bf1", "note": "Меньшая катушка"},
+        {"material": "PLA",  "netWeight": 2500, "spoolWeight": 350, "confidence": "estimated", "src": "bestfilament_bf1", "note": "XXL катушка"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 177, "confidence": "official", "src": "bestfilament_bf1"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 177, "confidence": "official", "src": "bestfilament_bf1"},
+        {"material": "PETG", "netWeight": 500,  "spoolWeight": 145, "confidence": "estimated", "src": "bestfilament_bf1"},
+        {"material": "PETG", "netWeight": 2500, "spoolWeight": 350, "confidence": "estimated", "src": "bestfilament_bf1"},
+        {"material": "HIPS", "netWeight": 1000, "spoolWeight": 177, "confidence": "official", "src": "bestfilament_bf1"},
+        {"material": "WATSON (SBS)", "netWeight": 750, "spoolWeight": 170, "confidence": "community", "src": "bestfilament_bf1"},
+        {"material": "ASA",  "netWeight": 750,  "spoolWeight": 170, "confidence": "community", "src": "bestfilament_bf1"},
+        {"material": "FLEX", "netWeight": 500,  "spoolWeight": 145, "confidence": "community", "src": "bestfilament_bf1"}
+      ]
+    },
+    {
+      "manufacturer": "FDplast",
+      "lines": [
+        {"material": "PLA",   "netWeight": 750,  "spoolWeight": 175, "confidence": "official", "src": "fdplast_official"},
+        {"material": "PLA",   "netWeight": 1000, "spoolWeight": 200, "confidence": "official", "src": "fdplast_official"},
+        {"material": "PLA",   "netWeight": 2500, "spoolWeight": 550, "confidence": "official", "src": "fdplast_official"},
+        {"material": "ABS",   "netWeight": 750,  "spoolWeight": 175, "confidence": "official", "src": "fdplast_official"},
+        {"material": "ABS",   "netWeight": 1000, "spoolWeight": 200, "confidence": "official", "src": "fdplast_official"},
+        {"material": "ABS",   "netWeight": 2500, "spoolWeight": 550, "confidence": "official", "src": "fdplast_official"},
+        {"material": "PETG",  "netWeight": 750,  "spoolWeight": 175, "confidence": "official", "src": "fdplast_official"},
+        {"material": "PETG",  "netWeight": 1000, "spoolWeight": 200, "confidence": "official", "src": "fdplast_official"},
+        {"material": "PETG",  "netWeight": 2500, "spoolWeight": 550, "confidence": "official", "src": "fdplast_official"},
+        {"material": "HIPS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "official", "src": "fdplast_official"},
+        {"material": "NYLON", "netWeight": 450,  "spoolWeight": 175, "confidence": "official", "src": "fdplast_official"},
+        {"material": "TPU",   "netWeight": 750,  "spoolWeight": 175, "confidence": "community", "src": "fdplast_official"},
+        {"material": "SBS",   "netWeight": 750,  "spoolWeight": 175, "confidence": "community", "src": "fdplast_official"}
+      ]
+    },
+    {
+      "manufacturer": "REC",
+      "lines": [
+        {"material": "PLA",       "netWeight": 750,  "spoolWeight": 200, "confidence": "community", "src": "rec_wiki", "note": "Стандартная катушка REC"},
+        {"material": "PLA",       "netWeight": 2000, "spoolWeight": 400, "confidence": "community", "src": "rec_wiki", "note": "Большая катушка"},
+        {"material": "ABS",       "netWeight": 750,  "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "ABS",       "netWeight": 2000, "spoolWeight": 400, "confidence": "community", "src": "rec_wiki"},
+        {"material": "RELAX (PETG)", "netWeight": 750,  "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "RELAX (PETG)", "netWeight": 2000, "spoolWeight": 400, "confidence": "community", "src": "rec_wiki"},
+        {"material": "ETERNAL (ASA)", "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "HIPS",      "netWeight": 750,  "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "FLEX (TPEE)", "netWeight": 500, "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "EASY FLEX (TPU)", "netWeight": 500, "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "TPU D70",   "netWeight": 500,  "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "RUBBER (SEBS)", "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "FRICTION (PA)", "netWeight": 500, "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "CAST (PMMA)", "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "FORMAX (ABS-CF)", "netWeight": 500, "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "ULTRAX (PA-CF)", "netWeight": 500, "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "GF MAX (PETG-GF)", "netWeight": 500, "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "PETG BIOCIDE", "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "PSU",       "netWeight": 250,  "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"},
+        {"material": "PEEK",      "netWeight": 250,  "spoolWeight": 200, "confidence": "community", "src": "rec_wiki"}
+      ]
+    },
+    {
+      "manufacturer": "FILAMENTARNO!",
+      "lines": [
+        {"material": "PLA+",  "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "filamentarno_packaging", "note": "Брутто упаковки 1.1 кг"},
+        {"material": "PLA+",  "netWeight": 500, "spoolWeight": 150, "confidence": "community", "src": "filamentarno_packaging", "note": "Брутто упаковки 0.65 кг"},
+        {"material": "PROTOTYPER S-SOFT", "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "filamentarno_packaging"},
+        {"material": "PROTOTYPER T-SOFT (SBS)", "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "filamentarno_packaging"},
+        {"material": "ABS",   "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "filamentarno_packaging"},
+        {"material": "PETG",  "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "filamentarno_packaging"},
+        {"material": "NYLON", "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "filamentarno_packaging"},
+        {"material": "TPU",   "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "filamentarno_packaging"},
+        {"material": "SAN",   "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "filamentarno_packaging"},
+        {"material": "PP",    "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "filamentarno_packaging"},
+        {"material": "WAX",   "netWeight": 500, "spoolWeight": 150, "confidence": "community", "src": "filamentarno_packaging"}
+      ]
+    },
+    {
+      "manufacturer": "PrintProduct",
+      "lines": [
+        {"material": "PLA",       "netWeight": 750,  "spoolWeight": 208, "confidence": "measured", "src": "printproduct_3dtoday", "note": "Взвешены 3 катушки — все 208 г"},
+        {"material": "PLA",       "netWeight": 1000, "spoolWeight": 256, "confidence": "community", "src": "printproduct_arch", "note": "PLA ARCH 1 кг, Ø200×55 мм"},
+        {"material": "PLA",       "netWeight": 500,  "spoolWeight": 175, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PLA LUMI",  "netWeight": 500,  "spoolWeight": 175, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PLA GEO",   "netWeight": 750,  "spoolWeight": 208, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PETG",      "netWeight": 750,  "spoolWeight": 208, "confidence": "community", "src": "printproduct_3dtoday"},
+        {"material": "PETG",      "netWeight": 1000, "spoolWeight": 256, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "ABS",       "netWeight": 750,  "spoolWeight": 208, "confidence": "community", "src": "printproduct_3dtoday"},
+        {"material": "HIPS",      "netWeight": 500,  "spoolWeight": 175, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "NYLON",     "netWeight": 500,  "spoolWeight": 175, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PC",        "netWeight": 500,  "spoolWeight": 175, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "TPU",       "netWeight": 500,  "spoolWeight": 175, "confidence": "community", "src": "printproduct_arch"}
+      ]
+    },
+    {
+      "manufacturer": "U3Print",
+      "lines": [
+        {"material": "PLA",   "netWeight": 1000, "spoolWeight": 256, "confidence": "community", "src": "printproduct_arch", "note": "Аналогично PrintProduct по типу катушки"},
+        {"material": "PLA M",     "netWeight": 1000, "spoolWeight": 256, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PETG",  "netWeight": 1000, "spoolWeight": 256, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PETG M5","netWeight": 1000, "spoolWeight": 256, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PETG CFF","netWeight": 1000, "spoolWeight": 256, "confidence": "community", "src": "printproduct_arch", "note": "Углеволокно"},
+        {"material": "PETG GFF","netWeight": 1000, "spoolWeight": 256, "confidence": "community", "src": "printproduct_arch", "note": "Стекловолокно"},
+        {"material": "ABS",   "netWeight": 1000, "spoolWeight": 256, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "NYLON", "netWeight": 450,  "spoolWeight": 175, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PP",    "netWeight": 750,  "spoolWeight": 208, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "FLEX",  "netWeight": 500,  "spoolWeight": 175, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PEEK",  "netWeight": 100,  "spoolWeight": 100, "confidence": "community", "src": "printproduct_arch"}
+      ]
+    },
+    {
+      "manufacturer": "MAKO",
+      "lines": [
+        {"material": "PETG",  "netWeight": 1000, "spoolWeight": 185, "confidence": "measured", "src": "mako_review", "note": "Взвешено: брутто 1186 г → катушка 185 г"},
+        {"material": "PLA",   "netWeight": 1000, "spoolWeight": 185, "confidence": "community", "src": "mako_review"},
+        {"material": "PLA",   "netWeight": 950,  "spoolWeight": 182, "confidence": "community", "src": "mako_review"},
+        {"material": "ABS",   "netWeight": 1000, "spoolWeight": 185, "confidence": "community", "src": "mako_review"},
+        {"material": "ASA",   "netWeight": 1000, "spoolWeight": 185, "confidence": "community", "src": "mako_review"},
+        {"material": "PA6-GF30", "netWeight": 750, "spoolWeight": 185, "confidence": "community", "src": "mako_review"}
+      ]
+    },
+    {
+      "manufacturer": "Некрасовский полимер",
+      "lines": [
+        {"material": "ABS Мастерская",  "netWeight": 1000, "spoolWeight": 176, "confidence": "measured", "src": "nekrasovskiy_review", "note": "Взвешено: 176 г, общий ~1180 г"},
+        {"material": "PETG Мастерская", "netWeight": 1000, "spoolWeight": 176, "confidence": "measured", "src": "nekrasovskiy_review"},
+        {"material": "PLA Мастерская",  "netWeight": 1000, "spoolWeight": 176, "confidence": "community", "src": "nekrasovskiy_review"},
+        {"material": "HIPS Мастерская", "netWeight": 1000, "spoolWeight": 176, "confidence": "community", "src": "nekrasovskiy_review"}
+      ]
+    },
+    {
+      "manufacturer": "SynTech",
+      "lines": [
+        {"material": "PETG Эко-катушка",  "netWeight": 1000, "spoolWeight": 40,  "confidence": "official", "src": "syntech_eco", "note": "Картонная эко-катушка вместо пластиковой"},
+        {"material": "PLA Эко-катушка",   "netWeight": 1000, "spoolWeight": 40,  "confidence": "official", "src": "syntech_eco"},
+        {"material": "ABS Эко-катушка",   "netWeight": 1000, "spoolWeight": 40,  "confidence": "official", "src": "syntech_eco"},
+        {"material": "PETG",              "netWeight": 1000, "spoolWeight": 200, "confidence": "community", "src": "syntech_eco", "note": "Пластиковая катушка 150-210 г"},
+        {"material": "PLA",               "netWeight": 1000, "spoolWeight": 200, "confidence": "community", "src": "syntech_eco"},
+        {"material": "ABS",               "netWeight": 1000, "spoolWeight": 200, "confidence": "community", "src": "syntech_eco"},
+        {"material": "PETG XXL Pack",     "netWeight": 7000, "spoolWeight": 800, "confidence": "estimated", "src": "syntech_eco", "note": "7 кг катушка"}
+      ]
+    },
+    {
+      "manufacturer": "Hi-Tech Plast",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "community", "src": "htp_review", "note": "1 кг ±50 г нетто"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "community", "src": "htp_review"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "community", "src": "htp_review"}
+      ]
+    },
+    {
+      "manufacturer": "CYBERFIBER",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "community", "src": "printproduct_arch"}
+      ]
+    },
+    {
+      "manufacturer": "EXOFLEX",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 155, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 155, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 155, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "ASA",  "netWeight": 1000, "spoolWeight": 155, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "TPU",  "netWeight": 500,  "spoolWeight": 130, "confidence": "community", "src": "printproduct_arch"}
+      ]
+    },
+    {
+      "manufacturer": "DEXP",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "measured", "src": "softed_table", "note": "Из DNS, очень популярен в РФ"},
+        {"material": "PLA",  "netWeight": 500,  "spoolWeight": 175, "confidence": "estimated", "src": "softed_table"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 232, "confidence": "measured", "src": "softed_table"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "measured", "src": "softed_table", "note": "Альтернативная партия катушки"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "community", "src": "softed_table"}
+      ]
+    },
+    {
+      "manufacturer": "Geek Filament",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 259, "confidence": "measured", "src": "softed_table"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 259, "confidence": "community", "src": "softed_table"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 259, "confidence": "community", "src": "softed_table"}
+      ]
+    },
+    {
+      "manufacturer": "INFILL",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 188, "confidence": "measured", "src": "softed_table"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 188, "confidence": "community", "src": "softed_table"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 188, "confidence": "community", "src": "softed_table"}
+      ]
+    },
+    {
+      "manufacturer": "ATECO",
+      "lines": [
+        {"material": "CARBEX CF (PA-CF)", "netWeight": 500, "spoolWeight": 277, "confidence": "measured", "src": "softed_table", "note": "Углеволокно"},
+        {"material": "CARBEX CF (PA-CF)", "netWeight": 1000, "spoolWeight": 277, "confidence": "estimated", "src": "softed_table"},
+        {"material": "PLA",                "netWeight": 1000, "spoolWeight": 250, "confidence": "community", "src": "softed_table"}
+      ]
+    },
+    {
+      "manufacturer": "Tiger3D",
+      "lines": [
+        {"material": "PLA+", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "tiger3d_official", "note": "Точный вес катушки не опубликован, оценка ~200 г"},
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "tiger3d_official"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "tiger3d_official"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "tiger3d_official"},
+        {"material": "ASA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "tiger3d_official"}
+      ]
+    },
+    {
+      "manufacturer": "Plexiwire",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1200, "spoolWeight": 250, "confidence": "official", "src": "plexiwire_official", "note": "400 м, 1.2 кг катушка"},
+        {"material": "PLA",  "netWeight": 900,  "spoolWeight": 200, "confidence": "official", "src": "plexiwire_official", "note": "300 м, 0.9 кг катушка"},
+        {"material": "PLA",  "netWeight": 300,  "spoolWeight": 91,  "confidence": "official", "src": "plexiwire_official", "note": "100 м, 0.3 кг катушка картонная"},
+        {"material": "PETG", "netWeight": 900,  "spoolWeight": 200, "confidence": "official", "src": "plexiwire_official"},
+        {"material": "PETG", "netWeight": 1200, "spoolWeight": 250, "confidence": "official", "src": "plexiwire_official"},
+        {"material": "ABS",  "netWeight": 900,  "spoolWeight": 200, "confidence": "official", "src": "plexiwire_official"},
+        {"material": "FLEX 90 (TPU)", "netWeight": 900, "spoolWeight": 200, "confidence": "official", "src": "plexiwire_official"},
+        {"material": "FLEX 90 (TPU)", "netWeight": 300, "spoolWeight": 91, "confidence": "official", "src": "plexiwire_official"}
+      ]
+    },
+    {
+      "manufacturer": "ABS Maker",
+      "lines": [
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 175, "confidence": "measured", "src": "softed_table"},
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 175, "confidence": "community", "src": "softed_table"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 175, "confidence": "community", "src": "softed_table"}
+      ]
+    },
+    {
+      "manufacturer": "НИТ",
+      "lines": [
+        {"material": "PLA",       "netWeight": 1000, "spoolWeight": 170, "confidence": "community", "src": "printproduct_arch", "note": "https://plastik-nit.ru/"},
+        {"material": "PLA Matte", "netWeight": 1000, "spoolWeight": 170, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PLA Aero",  "netWeight": 1000, "spoolWeight": 170, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PLA Пастельный", "netWeight": 1000, "spoolWeight": 170, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PETG",      "netWeight": 1000, "spoolWeight": 170, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "ABS",       "netWeight": 1000, "spoolWeight": 170, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "HIPS",      "netWeight": 1000, "spoolWeight": 170, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "PA-6",      "netWeight": 750,  "spoolWeight": 170, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "TPU",       "netWeight": 500,  "spoolWeight": 130, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "Композит",  "netWeight": 750,  "spoolWeight": 170, "confidence": "community", "src": "printproduct_arch"},
+        {"material": "ОртоНИТ",   "netWeight": 1000, "spoolWeight": 170, "confidence": "community", "src": "printproduct_arch"}
+      ]
+    },
+    {
+      "manufacturer": "Kremen",
+      "lines": [
+        {"material": "PLA Premium",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "kremen_official", "note": "Картридж-упаковка 7×24×21 см с патентованной 'Ribbed surface'"},
+        {"material": "PETG Premium", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "kremen_official"},
+        {"material": "ABS Premium",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "kremen_official"},
+        {"material": "PLA Start",    "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "kremen_official", "note": "Бюджетная линейка"},
+        {"material": "PETG Start",   "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "kremen_official"}
+      ]
+    },
+    {
+      "manufacturer": "StarPlast",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "starplast_ozon"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "starplast_ozon"},
+        {"material": "PLA Silk", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "starplast_ozon"}
+      ]
+    },
+    {
+      "manufacturer": "Lider-3D",
+      "lines": [
+        {"material": "PLA+",        "netWeight": 1000, "spoolWeight": 226, "confidence": "measured", "src": "lider3d_review", "note": "Брутто 1226 г → катушка ~226 г"},
+        {"material": "PLA Premium", "netWeight": 1000, "spoolWeight": 226, "confidence": "measured", "src": "lider3d_review"},
+        {"material": "ABS Plus Premium", "netWeight": 1000, "spoolWeight": 226, "confidence": "measured", "src": "lider3d_review"},
+        {"material": "PETG+",       "netWeight": 1000, "spoolWeight": 226, "confidence": "measured", "src": "lider3d_review"},
+        {"material": "PC Premium",  "netWeight": 1000, "spoolWeight": 226, "confidence": "community", "src": "lider3d_review"},
+        {"material": "Nylon Premium", "netWeight": 750, "spoolWeight": 200, "confidence": "community", "src": "lider3d_review"},
+        {"material": "ABS/PC",      "netWeight": 1000, "spoolWeight": 226, "confidence": "community", "src": "lider3d_review"},
+        {"material": "ASA",         "netWeight": 1000, "spoolWeight": 226, "confidence": "community", "src": "lider3d_review"},
+        {"material": "ULTEM 9085",  "netWeight": 500,  "spoolWeight": 200, "confidence": "community", "src": "lider3d_review"},
+        {"material": "PEEK",        "netWeight": 250,  "spoolWeight": 200, "confidence": "community", "src": "lider3d_review"}
+      ]
+    },
+    {
+      "manufacturer": "Greg",
+      "lines": [
+        {"material": "PLA", "netWeight": 1000, "spoolWeight": 223, "confidence": "measured", "src": "greg_review", "note": "Бухта без катушки 1223 г измерено; разборная катушка ~200-220 г"},
+        {"material": "ABS", "netWeight": 850,  "spoolWeight": 220, "confidence": "measured", "src": "greg_review", "note": "1071 г общий → ~220 г катушка"},
+        {"material": "PLA", "netWeight": 1200, "spoolWeight": 250, "confidence": "official", "src": "greg_review", "note": "Бухта 1.2 кг (400 м)"},
+        {"material": "PLA", "netWeight": 5000, "spoolWeight": 600, "confidence": "estimated", "src": "greg_review", "note": "Большая бухта 5 кг"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 220, "confidence": "community", "src": "greg_review"}
+      ]
+    },
+    {
+      "manufacturer": "3D Club",
+      "lines": [
+        {"material": "PLA",      "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PETG",     "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "ABS",      "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PA6 CF18", "netWeight": 500,  "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday", "note": "С углеволокном"},
+        {"material": "PA12",     "netWeight": 750,  "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "Carbex CF","netWeight": 500,  "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "Ultran M20","netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PMMA",     "netWeight": 750,  "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "ПолиИмпэкс (IRIS)",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday", "note": "https://plastic3d.pro/"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "HIPS", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PA-6", "netWeight": 750,  "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PA-12","netWeight": 750,  "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PP",   "netWeight": 750,  "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PVA",  "netWeight": 500,  "spoolWeight": 150, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "Novaprint 3D",
+      "lines": [
+        {"material": "PP-GF30", "netWeight": 750, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday", "note": "Полипропилен со стекловолокном"},
+        {"material": "ABS-GF13", "netWeight": 750, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PA-GF30",  "netWeight": 500, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PA-GF30HT","netWeight": 500, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday", "note": "Высокотемпературный"},
+        {"material": "Coax",     "netWeight": 500, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "Мастер-пластер",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "HIPS", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "Nylon PA11", "netWeight": 500, "spoolWeight": 180, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "Nylon PA6",  "netWeight": 500, "spoolWeight": 180, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PVA",  "netWeight": 500, "spoolWeight": 150, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "VolPrint",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "SBS",  "netWeight": 750,  "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "Clotho Filaments",
+      "lines": [
+        {"material": "ABS",        "netWeight": 750, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday", "note": "От Imprinta и REC"},
+        {"material": "PA12 GF40",  "netWeight": 500, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "TPU D70",    "netWeight": 500, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "TPU A95",    "netWeight": 500, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "R-filament",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "HIPS", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "Царь3D",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "SBS",  "netWeight": 750,  "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "TingerPlast",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "3DMall",
+      "lines": [
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "Chempion24",
+      "lines": [
+        {"material": "PLA", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "ABS", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "Roboparts",
+      "lines": [
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "russian_brands_3dtoday"}
+      ]
+    },
+    {
+      "manufacturer": "SEM3D",
+      "lines": [
+        {"material": "PLA",  "netWeight": 800,  "spoolWeight": 170, "confidence": "measured", "src": "sem3d_official", "note": "Брутто 1070 г - нетто 900 = 170 г катушка"},
+        {"material": "PLA",  "netWeight": 1000, "spoolWeight": 170, "confidence": "official", "src": "sem3d_official"},
+        {"material": "PLA",  "netWeight": 2000, "spoolWeight": 350, "confidence": "estimated", "src": "sem3d_official"},
+        {"material": "PETG", "netWeight": 1000, "spoolWeight": 170, "confidence": "official", "src": "sem3d_official"},
+        {"material": "ABS",  "netWeight": 1000, "spoolWeight": 170, "confidence": "official", "src": "sem3d_official"},
+        {"material": "ABS/PC", "netWeight": 1000, "spoolWeight": 170, "confidence": "community", "src": "sem3d_official"},
+        {"material": "HIPS", "netWeight": 1000, "spoolWeight": 170, "confidence": "community", "src": "sem3d_official"},
+        {"material": "SBS",  "netWeight": 750,  "spoolWeight": 170, "confidence": "community", "src": "sem3d_official"},
+        {"material": "PVA",  "netWeight": 500,  "spoolWeight": 150, "confidence": "community", "src": "sem3d_official"}
+      ]
+    },
+    {
+      "manufacturer": "Element3D",
+      "lines": [
+        {"material": "PLA",          "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "element3d_official", "note": "Точный вес катушки не опубликован, типовая оценка"},
+        {"material": "PLA",          "netWeight": 750,  "spoolWeight": 180, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "PLA",          "netWeight": 500,  "spoolWeight": 150, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "PLA",          "netWeight": 2500, "spoolWeight": 350, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "PLA LUMI",     "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "PETG MAX",     "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "ABS X",        "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "SBS VITRUM",   "netWeight": 750,  "spoolWeight": 180, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "PC MAX",       "netWeight": 750,  "spoolWeight": 180, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "PVA",          "netWeight": 500,  "spoolWeight": 150, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "NYLON 12",     "netWeight": 750,  "spoolWeight": 180, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "NYLON CARBON", "netWeight": 500,  "spoolWeight": 180, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "HIPS",         "netWeight": 1000, "spoolWeight": 200, "confidence": "estimated", "src": "element3d_official"},
+        {"material": "FLEX/TPU",     "netWeight": 500,  "spoolWeight": 150, "confidence": "estimated", "src": "element3d_official"}
+      ]
+    }
+  ]
+}

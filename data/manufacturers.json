@@ -1,0 +1,467 @@
+[
+  {
+    "name": "REC",
+    "country": "RU",
+    "count": 20
+  },
+  {
+    "name": "eSUN",
+    "country": "CN",
+    "count": 15
+  },
+  {
+    "name": "Element3D",
+    "country": "RU",
+    "count": 14
+  },
+  {
+    "name": "FDplast",
+    "country": "RU",
+    "count": 13
+  },
+  {
+    "name": "PrintProduct",
+    "country": "RU",
+    "count": 12
+  },
+  {
+    "name": "Bambu Lab",
+    "country": "CN",
+    "count": 12
+  },
+  {
+    "name": "Polymaker",
+    "country": "NL",
+    "count": 12
+  },
+  {
+    "name": "Bestfilament",
+    "country": "RU",
+    "count": 11
+  },
+  {
+    "name": "FILAMENTARNO!",
+    "country": "RU",
+    "count": 11
+  },
+  {
+    "name": "U3Print",
+    "country": "RU",
+    "count": 11
+  },
+  {
+    "name": "НИТ",
+    "country": "RU",
+    "count": 11
+  },
+  {
+    "name": "Lider-3D",
+    "country": "RU",
+    "count": 10
+  },
+  {
+    "name": "SEM3D",
+    "country": "RU",
+    "count": 9
+  },
+  {
+    "name": "Plexiwire",
+    "country": "UA",
+    "count": 8
+  },
+  {
+    "name": "3D Club",
+    "country": "RU",
+    "count": 8
+  },
+  {
+    "name": "ПолиИмпэкс (IRIS)",
+    "country": "RU",
+    "count": 8
+  },
+  {
+    "name": "Creality",
+    "country": "CN",
+    "count": 8
+  },
+  {
+    "name": "SUNLU",
+    "country": "CN",
+    "count": 8
+  },
+  {
+    "name": "SynTech",
+    "country": "RU",
+    "count": 7
+  },
+  {
+    "name": "Мастер-пластер",
+    "country": "RU",
+    "count": 7
+  },
+  {
+    "name": "ColorFabb",
+    "country": "NL",
+    "count": 7
+  },
+  {
+    "name": "MAKO",
+    "country": "RU",
+    "count": 6
+  },
+  {
+    "name": "Prusament",
+    "country": "CZ",
+    "count": 6
+  },
+  {
+    "name": "Overture",
+    "country": "CN",
+    "count": 6
+  },
+  {
+    "name": "Inland",
+    "country": "US",
+    "count": 6
+  },
+  {
+    "name": "UltiMaker",
+    "country": "NL",
+    "count": 6
+  },
+  {
+    "name": "EXOFLEX",
+    "country": "RU",
+    "count": 5
+  },
+  {
+    "name": "Kremen",
+    "country": "RU",
+    "count": 5
+  },
+  {
+    "name": "Greg",
+    "country": "RU",
+    "count": 5
+  },
+  {
+    "name": "Novaprint 3D",
+    "country": "RU",
+    "count": 5
+  },
+  {
+    "name": "Elegoo",
+    "country": "CN",
+    "count": 5
+  },
+  {
+    "name": "Fillamentum",
+    "country": "CZ",
+    "count": 5
+  },
+  {
+    "name": "Fiberlogy",
+    "country": "PL",
+    "count": 5
+  },
+  {
+    "name": "Spectrum",
+    "country": "PL",
+    "count": 5
+  },
+  {
+    "name": "Filament PM",
+    "country": "CZ",
+    "count": 5
+  },
+  {
+    "name": "MatterHackers",
+    "country": "US",
+    "count": 5
+  },
+  {
+    "name": "Некрасовский полимер",
+    "country": "RU",
+    "count": 4
+  },
+  {
+    "name": "DEXP",
+    "country": "RU",
+    "count": 4
+  },
+  {
+    "name": "Tiger3D",
+    "country": "RU",
+    "count": 4
+  },
+  {
+    "name": "VolPrint",
+    "country": "RU",
+    "count": 4
+  },
+  {
+    "name": "Clotho Filaments",
+    "country": "RU",
+    "count": 4
+  },
+  {
+    "name": "R-filament",
+    "country": "RU",
+    "count": 4
+  },
+  {
+    "name": "Царь3D",
+    "country": "RU",
+    "count": 4
+  },
+  {
+    "name": "Kingroon",
+    "country": "CN",
+    "count": 4
+  },
+  {
+    "name": "Anycubic",
+    "country": "CN",
+    "count": 4
+  },
+  {
+    "name": "Hatchbox",
+    "country": "CN",
+    "count": 4
+  },
+  {
+    "name": "JAYO",
+    "country": "CN",
+    "count": 4
+  },
+  {
+    "name": "AzureFilm",
+    "country": "SI",
+    "count": 4
+  },
+  {
+    "name": "Hi-Tech Plast",
+    "country": "RU",
+    "count": 3
+  },
+  {
+    "name": "CYBERFIBER",
+    "country": "RU",
+    "count": 3
+  },
+  {
+    "name": "Geek Filament",
+    "country": "RU",
+    "count": 3
+  },
+  {
+    "name": "INFILL",
+    "country": "RU",
+    "count": 3
+  },
+  {
+    "name": "ATECO",
+    "country": "RU",
+    "count": 3
+  },
+  {
+    "name": "ABS Maker",
+    "country": "RU",
+    "count": 3
+  },
+  {
+    "name": "StarPlast",
+    "country": "RU",
+    "count": 3
+  },
+  {
+    "name": "TingerPlast",
+    "country": "RU",
+    "count": 3
+  },
+  {
+    "name": "3DMall",
+    "country": "RU",
+    "count": 3
+  },
+  {
+    "name": "Geeetech",
+    "country": "CN",
+    "count": 3
+  },
+  {
+    "name": "Extrudr",
+    "country": "AT",
+    "count": 3
+  },
+  {
+    "name": "ProtoPasta",
+    "country": "US",
+    "count": 3
+  },
+  {
+    "name": "Rosa3D",
+    "country": "PL",
+    "count": 3
+  },
+  {
+    "name": "3DJake",
+    "country": "AT",
+    "count": 3
+  },
+  {
+    "name": "Chempion24",
+    "country": "RU",
+    "count": 2
+  },
+  {
+    "name": "Roboparts",
+    "country": "RU",
+    "count": 2
+  },
+  {
+    "name": "СТРИМПЛАСТ",
+    "country": "RU",
+    "count": 2
+  },
+  {
+    "name": "MY3D",
+    "country": "RU",
+    "count": 2
+  },
+  {
+    "name": "ERYONE",
+    "country": "CN",
+    "count": 2
+  },
+  {
+    "name": "PopBit",
+    "country": "CN",
+    "count": 2
+  },
+  {
+    "name": "Das Filament",
+    "country": "DE",
+    "count": 2
+  },
+  {
+    "name": "FormFutura",
+    "country": "NL",
+    "count": 2
+  },
+  {
+    "name": "Atomic Filament",
+    "country": "US",
+    "count": 2
+  },
+  {
+    "name": "3D Fuel",
+    "country": "US",
+    "count": 2
+  },
+  {
+    "name": "Amazon Basics",
+    "country": "US",
+    "count": 2
+  },
+  {
+    "name": "Amolen",
+    "country": "US",
+    "count": 2
+  },
+  {
+    "name": "Kexcelled",
+    "country": "CN",
+    "count": 2
+  },
+  {
+    "name": "Qidi",
+    "country": "CN",
+    "count": 2
+  },
+  {
+    "name": "Raise3D",
+    "country": "US",
+    "count": 2
+  },
+  {
+    "name": "Verbatim",
+    "country": "JP",
+    "count": 2
+  },
+  {
+    "name": "Eryone",
+    "country": "CN",
+    "count": 2
+  },
+  {
+    "name": "3DXTech",
+    "country": "US",
+    "count": 2
+  },
+  {
+    "name": "SolidFilament",
+    "country": "RU",
+    "count": 1
+  },
+  {
+    "name": "123 3D",
+    "country": "RU",
+    "count": 1
+  },
+  {
+    "name": "MonoPrice",
+    "country": "US",
+    "count": 1
+  },
+  {
+    "name": "Cookie Cad",
+    "country": "US",
+    "count": 1
+  },
+  {
+    "name": "NinjaTek",
+    "country": "US",
+    "count": 1
+  },
+  {
+    "name": "FlashForge",
+    "country": "CN",
+    "count": 1
+  },
+  {
+    "name": "Voxelab",
+    "country": "CN",
+    "count": 1
+  },
+  {
+    "name": "Sovol",
+    "country": "CN",
+    "count": 1
+  },
+  {
+    "name": "Snapmaker",
+    "country": "CN",
+    "count": 1
+  },
+  {
+    "name": "ZYLtech",
+    "country": "CN",
+    "count": 1
+  },
+  {
+    "name": "Ziro",
+    "country": "CN",
+    "count": 1
+  },
+  {
+    "name": "Devil Designs",
+    "country": "PL",
+    "count": 1
+  },
+  {
+    "name": "HP 3D",
+    "country": "US",
+    "count": 1
+  }
+]

@@ -1,0 +1,797 @@
+[
+  {
+    "name": "PLA",
+    "density": 1.24,
+    "count": 94
+  },
+  {
+    "name": "PETG",
+    "density": 1.27,
+    "count": 59
+  },
+  {
+    "name": "ABS",
+    "density": 1.04,
+    "count": 47
+  },
+  {
+    "name": "PLA cardboard",
+    "density": 1.24,
+    "count": 13
+  },
+  {
+    "name": "TPU",
+    "density": 1.21,
+    "count": 12
+  },
+  {
+    "name": "HIPS",
+    "density": 1.04,
+    "count": 10
+  },
+  {
+    "name": "ASA",
+    "density": 1.07,
+    "count": 8
+  },
+  {
+    "name": "PLA+",
+    "density": 1.24,
+    "count": 8
+  },
+  {
+    "name": "NYLON",
+    "density": 1.14,
+    "count": 5
+  },
+  {
+    "name": "PolyTerra PLA",
+    "density": 1.24,
+    "count": 5
+  },
+  {
+    "name": "SBS",
+    "density": 1.01,
+    "count": 4
+  },
+  {
+    "name": "PVA",
+    "density": 1.23,
+    "count": 4
+  },
+  {
+    "name": "PEEK",
+    "density": 1.32,
+    "count": 3
+  },
+  {
+    "name": "PP",
+    "density": 0.9,
+    "count": 3
+  },
+  {
+    "name": "PC",
+    "density": 1.2,
+    "count": 3
+  },
+  {
+    "name": "PLA Premium",
+    "density": 1.24,
+    "count": 3
+  },
+  {
+    "name": "PLA bulk",
+    "density": 1.24,
+    "count": 3
+  },
+  {
+    "name": "FLEX",
+    "density": 1.24,
+    "count": 2
+  },
+  {
+    "name": "RELAX (PETG)",
+    "density": 1.27,
+    "count": 2
+  },
+  {
+    "name": "TPU D70",
+    "density": 1.21,
+    "count": 2
+  },
+  {
+    "name": "PLA LUMI",
+    "density": 1.24,
+    "count": 2
+  },
+  {
+    "name": "CARBEX CF (PA-CF)",
+    "density": 1.18,
+    "count": 2
+  },
+  {
+    "name": "FLEX 90 (TPU)",
+    "density": 1.21,
+    "count": 2
+  },
+  {
+    "name": "PLA Matte",
+    "density": 1.24,
+    "count": 2
+  },
+  {
+    "name": "PA-6",
+    "density": 1.24,
+    "count": 2
+  },
+  {
+    "name": "PLA Silk",
+    "density": 1.24,
+    "count": 2
+  },
+  {
+    "name": "ABS/PC",
+    "density": 1.04,
+    "count": 2
+  },
+  {
+    "name": "ABS+",
+    "density": 1.04,
+    "count": 2
+  },
+  {
+    "name": "PLA Basic",
+    "density": 1.24,
+    "count": 2
+  },
+  {
+    "name": "PLA/PHA",
+    "density": 1.24,
+    "count": 2
+  },
+  {
+    "name": "PLA Extrafill",
+    "density": 1.24,
+    "count": 2
+  },
+  {
+    "name": "HTPLA",
+    "density": 1.24,
+    "count": 2
+  },
+  {
+    "name": "WATSON (SBS)",
+    "density": 1.01,
+    "count": 1
+  },
+  {
+    "name": "ETERNAL (ASA)",
+    "density": 1.07,
+    "count": 1
+  },
+  {
+    "name": "FLEX (TPEE)",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "EASY FLEX (TPU)",
+    "density": 1.21,
+    "count": 1
+  },
+  {
+    "name": "RUBBER (SEBS)",
+    "density": 1.2,
+    "count": 1
+  },
+  {
+    "name": "FRICTION (PA)",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "CAST (PMMA)",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "FORMAX (ABS-CF)",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "ULTRAX (PA-CF)",
+    "density": 1.18,
+    "count": 1
+  },
+  {
+    "name": "GF MAX (PETG-GF)",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PETG BIOCIDE",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PSU",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PROTOTYPER S-SOFT",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PROTOTYPER T-SOFT (SBS)",
+    "density": 1.01,
+    "count": 1
+  },
+  {
+    "name": "SAN",
+    "density": 1.08,
+    "count": 1
+  },
+  {
+    "name": "WAX",
+    "density": 0.95,
+    "count": 1
+  },
+  {
+    "name": "PLA GEO",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PLA M",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PETG M5",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PETG CFF",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PETG GFF",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PA6-GF30",
+    "density": 1.3,
+    "count": 1
+  },
+  {
+    "name": "ABS Мастерская",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "PETG Мастерская",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PLA Мастерская",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "HIPS Мастерская",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "PETG Эко-катушка",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PLA Эко-катушка",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "ABS Эко-катушка",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "PETG XXL Pack",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PLA Aero",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PLA Пастельный",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Композит",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "ОртоНИТ",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PETG Premium",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "ABS Premium",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "PLA Start",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PETG Start",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "ABS Plus Premium",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "PETG+",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PC Premium",
+    "density": 1.2,
+    "count": 1
+  },
+  {
+    "name": "Nylon Premium",
+    "density": 1.14,
+    "count": 1
+  },
+  {
+    "name": "ULTEM 9085",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PA6 CF18",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PA12",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Carbex CF",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Ultran M20",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PMMA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PA-12",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PP-GF30",
+    "density": 0.9,
+    "count": 1
+  },
+  {
+    "name": "ABS-GF13",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "PA-GF30",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PA-GF30HT",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Coax",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Nylon PA11",
+    "density": 1.14,
+    "count": 1
+  },
+  {
+    "name": "Nylon PA6",
+    "density": 1.14,
+    "count": 1
+  },
+  {
+    "name": "PA12 GF40",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "TPU A95",
+    "density": 1.21,
+    "count": 1
+  },
+  {
+    "name": "PETG MAX",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "ABS X",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "SBS VITRUM",
+    "density": 1.01,
+    "count": 1
+  },
+  {
+    "name": "PC MAX",
+    "density": 1.2,
+    "count": 1
+  },
+  {
+    "name": "NYLON 12",
+    "density": 1.14,
+    "count": 1
+  },
+  {
+    "name": "NYLON CARBON",
+    "density": 1.14,
+    "count": 1
+  },
+  {
+    "name": "FLEX/TPU",
+    "density": 1.21,
+    "count": 1
+  },
+  {
+    "name": "PET",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PETG HF",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PETG-CF",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PA-CF",
+    "density": 1.18,
+    "count": 1
+  },
+  {
+    "name": "PET-CF",
+    "density": 1.38,
+    "count": 1
+  },
+  {
+    "name": "SUPPORT",
+    "density": 0.9,
+    "count": 1
+  },
+  {
+    "name": "PolyLite PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PolyMax PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PolyLite ABS",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "PolyLite PETG",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "PolyMide PA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PolyMax PC",
+    "density": 1.2,
+    "count": 1
+  },
+  {
+    "name": "Fiberon (cardboard)",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PVB",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "eSpool+",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PLA+ (v2)",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PLA+ (v3)",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PLA Cardboard 3.0",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Hyper PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "CR-PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Ender PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Hyper PETG",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "Hyper ABS",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "PLA Cardboard",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Rapid PLA+",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PLA light",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Matte PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Silk PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PLA black",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "XT (PETG)",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "HT (PET)",
+    "density": 1.38,
+    "count": 1
+  },
+  {
+    "name": "Cardboard",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "CPE HG100",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Nylon CF15",
+    "density": 1.14,
+    "count": 1
+  },
+  {
+    "name": "Vinyl 303",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "GreenTEC",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PLA NX2",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "EasyPLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "EasyPETG",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "Nylon PA12",
+    "density": 1.14,
+    "count": 1
+  },
+  {
+    "name": "Donut",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "EasyFil PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "TPU 95A",
+    "density": 1.21,
+    "count": 1
+  },
+  {
+    "name": "Nylon",
+    "density": 1.14,
+    "count": 1
+  },
+  {
+    "name": "Build PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Build PETG",
+    "density": 1.27,
+    "count": 1
+  },
+  {
+    "name": "Build ABS",
+    "density": 1.04,
+    "count": 1
+  },
+  {
+    "name": "Pro PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Quantum PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Composite",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PLA Starter",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "PET-G Standard",
+    "density": 1.38,
+    "count": 1
+  },
+  {
+    "name": "TPU 98A",
+    "density": 1.21,
+    "count": 1
+  },
+  {
+    "name": "NinjaFlex TPU",
+    "density": 1.21,
+    "count": 1
+  },
+  {
+    "name": "Industrial PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "Hyper Speed PLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "EcoPLA",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "EcoPLA cardboard",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "EcoPLA Matte",
+    "density": 1.24,
+    "count": 1
+  },
+  {
+    "name": "BVOH",
+    "density": 1.2,
+    "count": 1
+  },
+  {
+    "name": "CarbonX PA-CF",
+    "density": 1.18,
+    "count": 1
+  },
+  {
+    "name": "EcoMax PLA",
+    "density": 1.24,
+    "count": 1
+  }
+]
