@@ -6215,56 +6215,6 @@
     "notes": ""
   },
   {
-    "id": "eryone_pla_1000",
-    "name": "ERYONE PLA 1000г",
-    "manufacturer": "ERYONE",
-    "material": "PLA",
-    "materialFamily": "PLA",
-    "netWeight": 1000,
-    "diameter": 1.75,
-    "spoolWeight": 200,
-    "grossWeight": 1200,
-    "spoolType": "plastic",
-    "spoolDiameter": 200,
-    "spoolWidth": 70,
-    "spoolInnerDiameter": 52,
-    "density": 1.24,
-    "country": "CN",
-    "links": {
-      "ozon": "#",
-      "wb": "#",
-      "ali": "https://aliexpress.ru/wholesale?SearchText=ERYONE%20PLA",
-      "website": "#"
-    },
-    "sourceUrl": "https://github.com/lDOCI/lDOCI.github.io/blob/main/filaments_data/filaments.json",
-    "notes": ""
-  },
-  {
-    "id": "eryone_abs_1000",
-    "name": "ERYONE ABS+ 1000г",
-    "manufacturer": "ERYONE",
-    "material": "ABS",
-    "materialFamily": "ABS",
-    "netWeight": 1000,
-    "diameter": 1.75,
-    "spoolWeight": 200,
-    "grossWeight": 1200,
-    "spoolType": "plastic",
-    "spoolDiameter": 200,
-    "spoolWidth": 70,
-    "spoolInnerDiameter": 52,
-    "density": 1.04,
-    "country": "CN",
-    "links": {
-      "ozon": "#",
-      "wb": "#",
-      "ali": "https://aliexpress.ru/wholesale?SearchText=ERYONE%20ABS",
-      "website": "#"
-    },
-    "sourceUrl": "https://github.com/lDOCI/lDOCI.github.io/blob/main/filaments_data/filaments.json",
-    "notes": ""
-  },
-  {
     "id": "creality_hyper_pla_1000",
     "name": "Creality Hyper PLA 1000г",
     "manufacturer": "Creality",
